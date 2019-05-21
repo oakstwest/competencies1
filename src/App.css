@@ -1,0 +1,113 @@
+.App-div1 {
+    width: 300px;
+    border: 30px solid rgb(190, 9, 9);
+    padding: 80px;
+    margin: 40px;
+    float: right;
+    background-color: rgb(14, 243, 14);
+    position: relative;
+    right: 30px;
+    transition: background-color .2s ease-in;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+h3+h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+
+}
+
+#App-h1 {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    transform-origin: left top;
+    transition: transform 3s;
+    width: 100px;
+}
+
+.App-div2 {
+    width: 300px;
+    border: 15px solid rgb(5, 8, 185);
+    padding: 80px;
+    margin: 40px;
+    float: left;
+    background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=300");
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    box-shadow: 10px 10px #424242;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+  }
+
+
+
+.App-hsecond {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(0, 255, 13);
+}
+
+.App-div3 {
+    width: 300px;
+    border: 15px solid rgb(5, 94, 45);
+    padding: 80px;
+    margin: 40px;
+    float: left;
+    background-color: rgb(158, 13, 115);
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+    
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }
+
+
+.App-div3 h2 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.App-div4{
+  width: 300px;
+  border: 15px solid rgb(13, 13, 15);
+  padding: 80px;
+  margin: 40px;
+  float: left;
+  background-image: linear-gradient(rgb(218, 12, 12), rgb(16, 19, 196));
+  writing-mode: vertical-rl;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+
